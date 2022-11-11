@@ -4,9 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <title>Personal website</title>
 </head>
+
 <body>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi et nemo maiores nulla recusandae? Vitae rerum exercitationem itaque! Soluta, officia.</p>
+    <section class="top-menu">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        <a class="nav-link" href="#About">About</a>
+                        <a class="nav-link" href="#Project">Project</a>
+                        <a class="nav-link " href="#Contact" tabindex="-1">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </section>
+    <section id="Home" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="p-5 margin-top bg-light">
+                    <h1>HELLO, I'M <br><span style="color:  #FF8367;">Partha Devnath</span></h1>
+                    <p>Hi, I'm begginer but dedicated at web developer. My journey has just started. I hope, I will
+                        do better. Thanks for visiting me without no requirements.</p>
+                    <a class="link-button" href="..." target="_blank">Hire Me</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-size" src="images/do not use this pic.png" alt="This is me">
+            </div>
+        </div>
+    </section>
+
+    <section id="About" class="container ">
+        <div class="row about-section">
+            <div class="col-md-6">
+                <div class="p-3 margin-top bg-light">
+                    <h3>ABOUT</h3>
+                    <p>I have already studied in computer science and engineering at Daffodil International University. I have knowledge in C, C++, Java, Python, Html, Css,Bootstrap, Javascript, React.js, Sql, Mongodb. I have also learn Data-structure, Algorithm, Object oriented programming. </p>
+                    <a class="link-button" href="..." target="_blank"><i class="fas fa-download"></i> Download CV</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-size" src="images/do not use this pic2.png" alt="This is me">
+            </div>
+        </div>
+    </section>
+    <section id="Project" class="container mt-5">
+        <div>
+            <h3 class="text-center">LATEST WORKING PROJECT</h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col project-hover">
+                <div style="border-radius: 10px;" class="card h-100 shadow">
+                    <img src="images/image 4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title project-header">Power-x-gym</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col project-hover">
+                <div style="border-radius: 10px;" class="card h-100 shadow">
+                    <img src="images/image 5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title project-header">Creative Agency</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col project-hover">
+                <div style="border-radius: 10px;" class="card h-100 shadow">
+                    <img src="images/image 8.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title project-header">Hard Rock Music</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Contact" class="container mt-5">
+        <div class="text-center">
+            <h1 class="card-title text-warning">WORKING INQUIRY</h1>
+            <a class="link-button pt-1" href="..." target="_blank">Let's Chat</a>
+            <div class="mt-3">   
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="card text-center">
+            <div class="card-header">
+              <h2>Contact</h2>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">partha15-2933@diu.edu.bd</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+                <p>©All Right Reserved | A Web Developer |</p>
+            </div>
+          </div>
+        
+    </footer>
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
